@@ -61,6 +61,7 @@ if (sizeof($response["errors_string"]) == 0) {
 $responseJSON = json_encode($response);
 // Now the headers
 header('Content-Type: application/json');
+header("Access-Control-Allow-Origin: *");
 // And the data
 echo $responseJSON;
 ?>
