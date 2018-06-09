@@ -22,24 +22,36 @@ body {
   }
 }
 
-form {
-  width: 100%;
-  text-align: center;
-  input[type="text"], input[type="email"] {
-    width: 100%;
-    border: 1px solid $blue;
-    padding: 10px;
-    margin-bottom: 18px;
+.thecontent {
+  h1 {
+    font-size: 40pt;
   }
-  input[type="submit"] {
-    border: 1px solid $gray;
-    background-color: $blue;
-    color: black;
-    padding: 10px 60px;
-    border-radius: 1px;
-    margin: 0 auto;
+  p {
+    font-size: 12pt;
   }
 }
+
+.theform {
+  form {
+    width: 100%;
+    text-align: center;
+    input[type="text"], input[type="email"] {
+      width: 100%;
+      border: 1px solid $blue;
+      padding: 10px;
+      margin-bottom: 18px;
+    }
+    input[type="submit"] {
+      border: 1px solid $gray;
+      background-color: $blue;
+      color: black;
+      padding: 10px 60px;
+      border-radius: 1px;
+      margin: 0 auto;
+    }
+  }
+}
+
 
 .alert {
   margin-top: 10px;

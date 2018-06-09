@@ -10,15 +10,20 @@ body {
   #slideshow img {
     height: 300px; }
 
-form {
+.thecontent h1 {
+  font-size: 40pt; }
+.thecontent p {
+  font-size: 12pt; }
+
+.theform form {
   width: 100%;
   text-align: center; }
-  form input[type="text"], form input[type="email"] {
+  .theform form input[type="text"], .theform form input[type="email"] {
     width: 100%;
     border: 1px solid #1197c3;
     padding: 10px;
     margin-bottom: 18px; }
-  form input[type="submit"] {
+  .theform form input[type="submit"] {
     border: 1px solid #7f7f7f;
     background-color: #1197c3;
     color: black;
