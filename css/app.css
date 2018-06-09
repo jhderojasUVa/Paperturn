@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+body {
+  font-family: 'Open Sans', sans-serif; }
+
+.margin_10 {
+  margin: 10px 0px; }
+
+#slideshow {
+  height: 300px; }
+  #slideshow img {
+    height: 300px; }
+
+form {
+  width: 100%;
+  text-align: center; }
+  form input[type="text"], form input[type="email"] {
+    width: 100%;
+    border: 1px solid #1197c3;
+    padding: 10px;
+    margin-bottom: 18px; }
+  form input[type="submit"] {
+    border: 1px solid #7f7f7f;
+    background-color: #1197c3;
+    color: black;
+    padding: 10px 60px;
+    border-radius: 1px;
+    margin: 0 auto; }
+
+.alert {
+  margin-top: 10px; }

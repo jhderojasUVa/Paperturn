@@ -1,0 +1,46 @@
+// SCSS for the app
+
+// Font
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+// Variables
+$blue: #1197c3;
+$gray: #7f7f7f;
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.margin_10 {
+  margin: 10px 0px;
+}
+
+#slideshow {
+  height: 300px;
+  img {
+    height: 300px;
+  }
+}
+
+form {
+  width: 100%;
+  text-align: center;
+  input[type="text"], input[type="email"] {
+    width: 100%;
+    border: 1px solid $blue;
+    padding: 10px;
+    margin-bottom: 18px;
+  }
+  input[type="submit"] {
+    border: 1px solid $gray;
+    background-color: $blue;
+    color: black;
+    padding: 10px 60px;
+    border-radius: 1px;
+    margin: 0 auto;
+  }
+}
+
+.alert {
+  margin-top: 10px;
+}
