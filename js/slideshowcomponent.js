@@ -12,7 +12,7 @@ class Slideshow_component extends React.Component {
     return { isloadling: true }
   }
 
-  componentDidMount() {
+  componentWillMount() {
     // If the component mount let's do the fetch
     return fetch('sendjson.php', {
       headers: {
