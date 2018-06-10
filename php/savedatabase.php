@@ -1,11 +1,8 @@
 <?php
 // A very simple php file to save the data into the database
 
-// The database conection variables
-$dbhost = "127.0.0.1";
-$dbuser = "root"; // Don't blame me for this I know that it's not the best and I must create an specific user
-$dbpass = ""; // and for this
-$dbdatabase = "paperturn"; // and... well for this too
+// Include the config for the database
+include "dbconfig.php";
 
 // First, get the variables
 $data = json_decode(file_get_contents('php://input'), true);
