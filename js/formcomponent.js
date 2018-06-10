@@ -32,7 +32,7 @@ class Form_component extends React.Component {
     event.preventDefault();
 
     // The data is on the state of the component so, let's do the fetch
-    fetch('savedatabase.php', {
+    fetch('./php/savedatabase.php', {
       headers: {
         Accept: 'application/json',
         'Content-Type': 'application/json',

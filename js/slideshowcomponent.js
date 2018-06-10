@@ -14,7 +14,7 @@ class Slideshow_component extends React.Component {
 
   componentWillMount() {
     // If the component mount let's do the fetch
-    return fetch('sendjson.php', {
+    return fetch('./php/sendjson.php', {
       headers: {
         Accept: 'application/json',
         'Content-Type': 'application/json',

@@ -45,9 +45,9 @@ scss/app.scss - SCSS for the styles
 sql/paperturn.sql - Dump of the database (empty)
 index.html - Principal file where the One Single Page is
 README.md - This file!
-savedatabase.php - PHP file who test and send data to the MySQL
-sendjson.php - PHP file that send the slideshowdata.json file
-slideshowdata.json - The data in JSON of the images of the slideshow
+php/savedatabase.php - PHP file who test and send data to the MySQL
+php/sendjson.php - PHP file that send the slideshowdata.json file
+json/slideshowdata.json - The data in JSON of the images of the slideshow
 ```
 
 ### Slideshow
