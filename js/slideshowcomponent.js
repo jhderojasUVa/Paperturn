@@ -4,7 +4,8 @@ class Slideshow_component extends React.Component {
     super(props);
     this.state = {
       isloading: true,
-      slideshowImages: []
+      slideshowImages: [],
+      slideIndex: 0,
     }
   }
 
@@ -35,6 +36,7 @@ class Slideshow_component extends React.Component {
   }
 
   render() {
+    //showSlide(this.state.slideIndex);
     // First on the render create the elements
     if (this.state.isloading === false) {
       var theimages = this.state.slideshowImages.map((image, index) => {
@@ -47,29 +49,18 @@ class Slideshow_component extends React.Component {
           backgroundSize: 'cover'
         }
 
-        if (index == 0) {
-          // Bootstrap carousel need to be "activated" with the active class
-          return (
-            <div className="carousel-item active" key={index}>
-              <div style={divstyle}></div>
-            </div>
-          )
-        } else {
-          return (
-            <div className="carousel-item" key={index}>
-              <div style={divstyle}></div>
-            </div>
-          )
-        }
+        return (
+          <div className="myslide" key={index}>
+            <div style={divstyle}></div>
+          </div>
+        )
+
       });
     }
-
     // "Print" all the carousel
     return (
-      <div id="carousel" className="carousel slide" data-ride="carousel">
-        <div className="carousel-inner">
+      <div id="slideshow">
           {theimages}
-        </div>
       </div>
     )
   }

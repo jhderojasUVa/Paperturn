@@ -6,9 +6,14 @@ body {
   margin: 10px 0px; }
 
 #slideshow {
-  height: 300px; }
-  #slideshow img {
-    height: 300px; }
+  height: 300px;
+  position: relative;
+  margin: 0 auto; }
+  #slideshow .myslide {
+    /*display: none;*/
+    margin-left: 50px;
+    float: left;
+  }
 
 .thecontent h1 {
   font-size: 40pt; }
@@ -17,7 +22,8 @@ body {
 
 .theform form {
   width: 100%;
-  text-align: center; }
+  text-align: center;
+  margin-bottom: 50px;}
   .theform form input[type="text"], .theform form input[type="email"] {
     width: 100%;
     border: 1px solid #1197c3;
