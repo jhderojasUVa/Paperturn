@@ -69,5 +69,5 @@ class Slideshow_component extends React.Component {
 
 ReactDOM.render(
     <Slideshow_component />,
-    document.getElementById("slideshow")
+    document.getElementById("slideshow_react")
   );

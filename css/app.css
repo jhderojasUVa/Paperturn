@@ -7,18 +7,21 @@ body {
 
 #slideshow {
   height: 300px;
-  position: relative;
-  margin: 0 auto; }
+  text-align: center;}
   #slideshow .myslide {
-    /*display: none;*/
-    margin-left: 50px;
-    float: left;
+    margin-left: 15px;
+    margin-right: 15px;
   }
 
 .thecontent h1 {
-  font-size: 40pt; }
+  font-size: 40pt;
+  font-weight: bold;
+  margin-bottom: 40px;}
 .thecontent p {
-  font-size: 12pt; }
+  font-size: 12pt;
+  margin-left: 8px;
+  margin-right: 8px;
+  margin-bottom: 40px;}
 
 .theform form {
   width: 100%;

@@ -26,7 +26,7 @@ function showSlide() {
       slideIndex = -i;
     }
     // Showing the element!
-    document.getElementsByClassName('myslide')[slideIndex+i].style.display = 'block';
+    document.getElementsByClassName('myslide')[slideIndex+i].style.display = 'inline-block';
   }
   slideIndex = slideIndex+3;
   // Next!
