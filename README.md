@@ -41,6 +41,7 @@ A brief description about you have.
 ```
 css/app.css - Compiled CSS file
 images/...jpg - Slideshow images
+js/slideshow.js - Slideshow in js
 js/formcomponent.js - Form component in React
 js/slideshowcomponent.js - Slideshow component in React
 scss/app.scss - SCSS for the styles
