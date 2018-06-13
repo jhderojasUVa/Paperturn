@@ -67,6 +67,8 @@ About the visual experience. Images are from different sizes, so the best way to
 
 On the PSD (render) there's not arrow or dot or element that helps you to move from one to another so I put in "auto" mode. If needed the Bootstrap carousel (slideshow) data-interval can be used (and if needed arrows, and all the stuff too).
 
+Update: I have updated the slideshow to show three elements and I have made it on vanilla js.
+
 ### Form
 
 The form have two important elements: the javascript component and the php file who recives the data from the form and save on the database.
