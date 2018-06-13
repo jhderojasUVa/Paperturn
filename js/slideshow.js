@@ -10,7 +10,7 @@ setTimeout(function(){
 }, 5);
 
 function showSlide() {
-  slideIndex++;
+
   // Finding the slides
   var slides = document.getElementsByClassName('myslide');
 
@@ -23,12 +23,12 @@ function showSlide() {
   for (var i = 0; i < 3; i++) {
     // but no more than the elements!
     if ((slideIndex+i) >= document.getElementsByClassName('myslide').length) {
-      slideIndex = -1;
+      slideIndex = -i;
     }
     // Showing the element!
     document.getElementsByClassName('myslide')[slideIndex+i].style.display = 'block';
   }
-
+  slideIndex = slideIndex+3;
   // Next!
   setTimeout(showSlide, timming);
 }
